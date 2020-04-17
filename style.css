@@ -1,0 +1,15 @@
+#name, #mail, #nummer, #wachtwoord{
+    width: 220px;
+    margin-bottom: 2px;
+    display: flex;
+}
+
+#sub_button{
+    width: 220px;
+    border-radius: 15px;
+    padding: 8px 15px;
+    margin-top: 12px;
+    font-weight: bold;
+    background-color: green;
+    border: 1px solid green;
+}
