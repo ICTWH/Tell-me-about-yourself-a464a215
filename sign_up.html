@@ -27,20 +27,102 @@
 
         <input type="text" name="nummer" id="nummer">
 
-        <label for="wachtwoord"> Wachtwoord</label>
+        <label for="wachtwoord"> Secret </label>
 
         <input type="password" name="wachtwoord" id="wachtwoord">
 
+        <label for="provincie"> Provincie </label>
+
+            <div class="optieProvincie"> 
+            <select id="provincie"> 
+            <option value="Option"> Kies een optie </option>
+            <option value="Drenthe"> Drenthe </option> 
+            <option value="Flevoland"> Flevoland </option>
+            <option value="Friesland"> Friesland </option>  
+            <option value="Drenthe"> Gelderland </option> 
+            <option value="Drenthe"> Groningen </option> 
+            <option value="Drenthe"> Limburg </option> 
+            <option value="Drenthe"> Noord Brabant </option> 
+            <option value="Drenthe"> Noord Holland </option> 
+            <option value="Drenthe"> Overijssel</option> 
+            <option value="Drenthe"> Zuid Holland </option> 
+            <option value="Drenthe"> Utrecht </option> 
+            <option value="Drenthe"> Zeeland </option> 
 
 
-        <input type="submit" name="Submit" id="sub_button">
+        </select> 
+    </div> 
 
 
+        <div class="button_submit">
 
+            <input type="submit" name="Submit" id="sub_button">
+
+        </div>
+
+        
+        <h3> Hou je van voetbal? </h3>
+
+        <div class="OptieNee"> 
+        <input type="radio" id="voetbalNee" name="Nee" value="Nee">
+
+        <label for="voetbalNee">Nee </label>
+
+         </div>
+
+         <div class="OptieJa"> 
+        <input type="radio" id="voetbalJa" name="Ja" value="Ja">
+
+        <label for="voetbalJa"> Ja </label>
+        </div>
+
+
+        <div class="dagen"> 
+
+        <h3> Favorite dagen in de week </h3>
+
+        <div class="maandagCheck">
+        <input type="checkbox" id="maandag" name="maandag"> 
+        <label for="maandag"> Maandag </label>
+        </div>
+
+        <div class="dinsdagCheck">
+        <input type="checkbox" id="dinsdag" name="dinsdag"> 
+        <label for="dinsdag"> Dinsdag </label>
+         </div>
+
+         <div class="woensdagCheck">
+        <input type="checkbox" id="woensdag" name="woensdag"> 
+        <label for="woensdag"> Woensdag </label>
+        </div>
+        
+        <div class="donderdagCheck"></div>
+        <input type="checkbox" id="donderdag" name="donderdag"> 
+        <label for="donderdag"> Donderdag </label>
+        </div>
+        
+        <div class="vrijdagCheck"></div>
+        <input type="checkbox" id="vrijdag" name="vrijdag"> 
+        <label for="vrijdag"> Vrijdag </label>
+        </div>
+
+        <div class="zaterdagCheck"></div>
+        <input type="checkbox" id="zaterdag" name="zaterdag"> 
+        <label for="zaterdag"> zaterdag </label>
+         </div>
+
+         <div class="zondagCheck"></div>
+        <input type="checkbox" id="zondag" name="zondag"> 
+        <label for="zondag"> Zondag </label>
+          </div>  
+             </div> 
 
     </form>
 
+
+
     <script src="script.js"> </script>
+
 </body>
 
 </html>
